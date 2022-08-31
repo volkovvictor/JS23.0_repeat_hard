@@ -9,4 +9,7 @@ numArr.forEach(n => {
    mult *= n;
 })
 
+
+mult**=3;
+
 console.log(mult)
