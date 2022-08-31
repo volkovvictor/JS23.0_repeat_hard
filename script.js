@@ -10,6 +10,7 @@ numArr.forEach(n => {
 })
 
 
-mult**=3;
+mult **= 3;
+mult += '';
 
-console.log(mult)
+console.log(mult.slice(0,2))
