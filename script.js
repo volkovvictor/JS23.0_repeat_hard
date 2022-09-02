@@ -38,3 +38,10 @@ switch (lang) {
 }
 
 lang === 'ru' ? console.log(date[0].join(', ')) : console.log(date[1].join(', '));
+
+///////////////////
+
+const namePerson = 'Артем';
+
+namePerson === 'Артем' ? console.log('Директор') : 
+namePerson === 'Александр' ? console.log('Преподаватель') : console.log('Cтудент')
